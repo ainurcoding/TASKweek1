@@ -1,0 +1,49 @@
+body {
+    background: #94f0e3;
+    font-family: 'Abril Fatface', cursive;
+}
+.nav-left {
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    float: left;
+    background: #3335c7;
+    height: 100%;
+    color: white;
+}
+
+.nav-left h1{
+    margin-left: 40px;
+}
+
+.nav-left blockquote {
+    display: inline;
+    margin-left: 0;
+    font-size: 10px;
+}
+
+.custom-p {
+    margin-left: 50px;
+    font-size: 10px;
+}
+
+.form-container {
+    position: static;
+    text-align: center;
+    color: rgb(36, 42, 38);
+}
+
+.button-custom {
+    display: inline-block; 
+    width: 300px; 
+    margin-top: 5px;
+    margin-left: 155px; 
+    margin-bottom: 5px;
+    background: #6c6eff;
+}
+
+.button-custom:hover {
+    background: #94f0e3;
+    cursor: pointer;
+}
