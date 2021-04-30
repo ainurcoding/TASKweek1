@@ -1,0 +1,42 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.div-container {
+    background-color: rgba(25, 6, 27, 0.226);
+    height: 100px;
+    justify-content: center;
+}
+
+.div-container nav a{
+    margin: 0;
+    text-decoration: none;
+    color: rgb(58, 19, 19);
+    font-size: 50px;
+}
+.content-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding: 100px 100px; */
+}
+.box-container {
+    
+    background: burlywood;
+    margin: 5px;
+    height: 300px;
+    
+}
+.content-container .box-container .input-area {
+    width: 10;
+    text-align: center;
+    left: 50%;
+    /* transform: translateX(90%); */
+}
+
+.output-custom {
+    margin: 5px;
+}
+
