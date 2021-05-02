@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 1 - task 7 convert temperature</title>
+
+    <link rel="stylesheet" href="7_Convert_temperature.css">
+</head>
+<body>
+    <nav>
+        <a>Convert Temperature</a>
+    </nav>
+    <section>
+        <form class="form-container">
+            <center>
+                <label class="label-area" for="">Masukkan nilai awal</label>
+                <input type="text" class="input-area" id="nilaiAwal" placeholder="ex : 50">
+                <label class="label-area" for="">Konversi</label><br>
+                <label class="label-area" for="">dari</label>
+                <select name="suhu-awal" id="suhuAwal" class="select-area">
+                    <option value="Celcius">Celcius</option>
+                    <option value="Reamur">Reamur</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+                <label class="label-area" for="">ke</label>
+                <select name="suhu-akhir" id="suhuAkhir" class="select-area">
+                    <option value="Celcius">Celcius</option>
+                    <option value="Reamur">Reamur</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+                <button type="button" class="button-area" onclick="convertTemperature()">Hit Me</button><br>
+                <p id="output"></p>
+        </form>
+    </section>
+
+    <script src="7_Convert_temperature.js"></script>
+</body>
+</html>
